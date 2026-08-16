@@ -1,0 +1,19 @@
+Start testing: Aug 02 22:08 CST
+----------------------------------------------------------
+1/1 Testing: forgekv_hello_test
+1/1 Test: forgekv_hello_test
+Command: "/Users/steve/code/forgekv-mlx-kv-cache/build/forgekv_hello_test"
+Directory: /Users/steve/code/forgekv-mlx-kv-cache/build
+"forgekv_hello_test" start time: Aug 02 22:08 CST
+Output:
+----------------------------------------------------------
+Hello from ForgeKV!
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Passed.
+"forgekv_hello_test" end time: Aug 02 22:08 CST
+"forgekv_hello_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 02 22:08 CST

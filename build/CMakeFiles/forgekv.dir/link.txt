@@ -1,0 +1,2 @@
+/usr/bin/ar qc libforgekv.a CMakeFiles/forgekv.dir/src/forgekv.cc.o
+/usr/bin/ranlib libforgekv.a
