@@ -29,6 +29,7 @@
 /Users/steve/code/forgekv-mlx-kv-cache/build/CMakeFiles/ContinuousSubmit.dir
 /Users/steve/code/forgekv-mlx-kv-cache/build/CMakeFiles/forgekv_hello_test.dir
 /Users/steve/code/forgekv-mlx-kv-cache/build/CMakeFiles/forgekv_status_test.dir
+/Users/steve/code/forgekv-mlx-kv-cache/build/CMakeFiles/forgekv_db_test.dir
 /Users/steve/code/forgekv-mlx-kv-cache/build/CMakeFiles/test.dir
 /Users/steve/code/forgekv-mlx-kv-cache/build/CMakeFiles/edit_cache.dir
 /Users/steve/code/forgekv-mlx-kv-cache/build/CMakeFiles/rebuild_cache.dir

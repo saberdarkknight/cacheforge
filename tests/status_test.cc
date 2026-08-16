@@ -33,6 +33,11 @@ int main() {
   passed &= Expect(missing.ToString() == "NotFound: key: user:42",
                    "NotFound status should include code and message");
 
+  const forgekv::Status invalid =
+      forgekv::Status::InvalidArgument("result must not be null");
+  passed &= Expect(invalid.code() == forgekv::StatusCode::kInvalidArgument,
+                   "InvalidArgument status should have its own code");
+
   const forgekv::Status io_error = forgekv::Status::IOError("disk full");
   const forgekv::Status corruption = forgekv::Status::Corruption("bad checksum");
   passed &= Expect(io_error.code() != corruption.code(),

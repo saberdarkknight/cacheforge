@@ -1,8 +1,14 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/forgekv.dir/src/db.cc.o"
+  "CMakeFiles/forgekv.dir/src/db.cc.o.d"
   "CMakeFiles/forgekv.dir/src/forgekv.cc.o"
   "CMakeFiles/forgekv.dir/src/forgekv.cc.o.d"
+  "CMakeFiles/forgekv.dir/src/memtable.cc.o"
+  "CMakeFiles/forgekv.dir/src/memtable.cc.o.d"
   "CMakeFiles/forgekv.dir/src/status.cc.o"
   "CMakeFiles/forgekv.dir/src/status.cc.o.d"
+  "CMakeFiles/forgekv.dir/src/wal.cc.o"
+  "CMakeFiles/forgekv.dir/src/wal.cc.o.d"
   "libforgekv.a"
   "libforgekv.pdb"
 )

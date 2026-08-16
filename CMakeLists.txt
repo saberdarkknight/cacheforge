@@ -7,8 +7,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_library(forgekv
+  src/db.cc
   src/forgekv.cc
+  src/memtable.cc
   src/status.cc
+  src/wal.cc
 )
 
 target_include_directories(forgekv
@@ -42,4 +45,12 @@ if(BUILD_TESTING)
   target_link_libraries(forgekv_status_test PRIVATE forgekv)
 
   add_test(NAME forgekv_status_test COMMAND forgekv_status_test)
+
+  add_executable(forgekv_db_test
+    tests/db_test.cc
+  )
+
+  target_link_libraries(forgekv_db_test PRIVATE forgekv)
+
+  add_test(NAME forgekv_db_test COMMAND forgekv_db_test)
 endif()

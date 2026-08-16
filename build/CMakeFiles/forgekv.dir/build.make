@@ -72,10 +72,24 @@ include CMakeFiles/forgekv.dir/flags.make
 CMakeFiles/forgekv.dir/codegen:
 .PHONY : CMakeFiles/forgekv.dir/codegen
 
+CMakeFiles/forgekv.dir/src/db.cc.o: CMakeFiles/forgekv.dir/flags.make
+CMakeFiles/forgekv.dir/src/db.cc.o: /Users/steve/code/forgekv-mlx-kv-cache/src/db.cc
+CMakeFiles/forgekv.dir/src/db.cc.o: CMakeFiles/forgekv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/steve/code/forgekv-mlx-kv-cache/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/forgekv.dir/src/db.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forgekv.dir/src/db.cc.o -MF CMakeFiles/forgekv.dir/src/db.cc.o.d -o CMakeFiles/forgekv.dir/src/db.cc.o -c /Users/steve/code/forgekv-mlx-kv-cache/src/db.cc
+
+CMakeFiles/forgekv.dir/src/db.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forgekv.dir/src/db.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/steve/code/forgekv-mlx-kv-cache/src/db.cc > CMakeFiles/forgekv.dir/src/db.cc.i
+
+CMakeFiles/forgekv.dir/src/db.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgekv.dir/src/db.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/steve/code/forgekv-mlx-kv-cache/src/db.cc -o CMakeFiles/forgekv.dir/src/db.cc.s
+
 CMakeFiles/forgekv.dir/src/forgekv.cc.o: CMakeFiles/forgekv.dir/flags.make
 CMakeFiles/forgekv.dir/src/forgekv.cc.o: /Users/steve/code/forgekv-mlx-kv-cache/src/forgekv.cc
 CMakeFiles/forgekv.dir/src/forgekv.cc.o: CMakeFiles/forgekv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/steve/code/forgekv-mlx-kv-cache/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/forgekv.dir/src/forgekv.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/steve/code/forgekv-mlx-kv-cache/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/forgekv.dir/src/forgekv.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forgekv.dir/src/forgekv.cc.o -MF CMakeFiles/forgekv.dir/src/forgekv.cc.o.d -o CMakeFiles/forgekv.dir/src/forgekv.cc.o -c /Users/steve/code/forgekv-mlx-kv-cache/src/forgekv.cc
 
 CMakeFiles/forgekv.dir/src/forgekv.cc.i: cmake_force
@@ -86,10 +100,24 @@ CMakeFiles/forgekv.dir/src/forgekv.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgekv.dir/src/forgekv.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/steve/code/forgekv-mlx-kv-cache/src/forgekv.cc -o CMakeFiles/forgekv.dir/src/forgekv.cc.s
 
+CMakeFiles/forgekv.dir/src/memtable.cc.o: CMakeFiles/forgekv.dir/flags.make
+CMakeFiles/forgekv.dir/src/memtable.cc.o: /Users/steve/code/forgekv-mlx-kv-cache/src/memtable.cc
+CMakeFiles/forgekv.dir/src/memtable.cc.o: CMakeFiles/forgekv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/steve/code/forgekv-mlx-kv-cache/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/forgekv.dir/src/memtable.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forgekv.dir/src/memtable.cc.o -MF CMakeFiles/forgekv.dir/src/memtable.cc.o.d -o CMakeFiles/forgekv.dir/src/memtable.cc.o -c /Users/steve/code/forgekv-mlx-kv-cache/src/memtable.cc
+
+CMakeFiles/forgekv.dir/src/memtable.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forgekv.dir/src/memtable.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/steve/code/forgekv-mlx-kv-cache/src/memtable.cc > CMakeFiles/forgekv.dir/src/memtable.cc.i
+
+CMakeFiles/forgekv.dir/src/memtable.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgekv.dir/src/memtable.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/steve/code/forgekv-mlx-kv-cache/src/memtable.cc -o CMakeFiles/forgekv.dir/src/memtable.cc.s
+
 CMakeFiles/forgekv.dir/src/status.cc.o: CMakeFiles/forgekv.dir/flags.make
 CMakeFiles/forgekv.dir/src/status.cc.o: /Users/steve/code/forgekv-mlx-kv-cache/src/status.cc
 CMakeFiles/forgekv.dir/src/status.cc.o: CMakeFiles/forgekv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/steve/code/forgekv-mlx-kv-cache/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/forgekv.dir/src/status.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/steve/code/forgekv-mlx-kv-cache/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/forgekv.dir/src/status.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forgekv.dir/src/status.cc.o -MF CMakeFiles/forgekv.dir/src/status.cc.o.d -o CMakeFiles/forgekv.dir/src/status.cc.o -c /Users/steve/code/forgekv-mlx-kv-cache/src/status.cc
 
 CMakeFiles/forgekv.dir/src/status.cc.i: cmake_force
@@ -100,19 +128,39 @@ CMakeFiles/forgekv.dir/src/status.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgekv.dir/src/status.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/steve/code/forgekv-mlx-kv-cache/src/status.cc -o CMakeFiles/forgekv.dir/src/status.cc.s
 
+CMakeFiles/forgekv.dir/src/wal.cc.o: CMakeFiles/forgekv.dir/flags.make
+CMakeFiles/forgekv.dir/src/wal.cc.o: /Users/steve/code/forgekv-mlx-kv-cache/src/wal.cc
+CMakeFiles/forgekv.dir/src/wal.cc.o: CMakeFiles/forgekv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/steve/code/forgekv-mlx-kv-cache/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/forgekv.dir/src/wal.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forgekv.dir/src/wal.cc.o -MF CMakeFiles/forgekv.dir/src/wal.cc.o.d -o CMakeFiles/forgekv.dir/src/wal.cc.o -c /Users/steve/code/forgekv-mlx-kv-cache/src/wal.cc
+
+CMakeFiles/forgekv.dir/src/wal.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forgekv.dir/src/wal.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/steve/code/forgekv-mlx-kv-cache/src/wal.cc > CMakeFiles/forgekv.dir/src/wal.cc.i
+
+CMakeFiles/forgekv.dir/src/wal.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forgekv.dir/src/wal.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/steve/code/forgekv-mlx-kv-cache/src/wal.cc -o CMakeFiles/forgekv.dir/src/wal.cc.s
+
 # Object files for target forgekv
 forgekv_OBJECTS = \
+"CMakeFiles/forgekv.dir/src/db.cc.o" \
 "CMakeFiles/forgekv.dir/src/forgekv.cc.o" \
-"CMakeFiles/forgekv.dir/src/status.cc.o"
+"CMakeFiles/forgekv.dir/src/memtable.cc.o" \
+"CMakeFiles/forgekv.dir/src/status.cc.o" \
+"CMakeFiles/forgekv.dir/src/wal.cc.o"
 
 # External object files for target forgekv
 forgekv_EXTERNAL_OBJECTS =
 
+libforgekv.a: CMakeFiles/forgekv.dir/src/db.cc.o
 libforgekv.a: CMakeFiles/forgekv.dir/src/forgekv.cc.o
+libforgekv.a: CMakeFiles/forgekv.dir/src/memtable.cc.o
 libforgekv.a: CMakeFiles/forgekv.dir/src/status.cc.o
+libforgekv.a: CMakeFiles/forgekv.dir/src/wal.cc.o
 libforgekv.a: CMakeFiles/forgekv.dir/build.make
 libforgekv.a: CMakeFiles/forgekv.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/steve/code/forgekv-mlx-kv-cache/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libforgekv.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/steve/code/forgekv-mlx-kv-cache/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libforgekv.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/forgekv.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/forgekv.dir/link.txt --verbose=$(VERBOSE)
 

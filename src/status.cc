@@ -11,6 +11,10 @@ Status Status::OK() {
   return Status(StatusCode::kOk, "");
 }
 
+Status Status::InvalidArgument(std::string message) {
+  return Status(StatusCode::kInvalidArgument, std::move(message));
+}
+
 Status Status::NotFound(std::string message) {
   return Status(StatusCode::kNotFound, std::move(message));
 }
@@ -39,6 +43,8 @@ std::string Status::ToString() const {
   switch (code_) {
     case StatusCode::kOk:
       return "OK";
+    case StatusCode::kInvalidArgument:
+      return "InvalidArgument: " + message_;
     case StatusCode::kNotFound:
       return "NotFound: " + message_;
     case StatusCode::kIOError:

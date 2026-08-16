@@ -529,6 +529,43 @@ forgekv_status_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv_status_test.dir/build.make CMakeFiles/forgekv_status_test.dir/build
 .PHONY : forgekv_status_test/fast
 
+#=============================================================================
+# Target rules for targets named forgekv_db_test
+
+# Build rule for target.
+forgekv_db_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 forgekv_db_test
+.PHONY : forgekv_db_test
+
+# fast build rule for target.
+forgekv_db_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv_db_test.dir/build.make CMakeFiles/forgekv_db_test.dir/build
+.PHONY : forgekv_db_test/fast
+
+src/db.o: src/db.cc.o
+.PHONY : src/db.o
+
+# target to build an object file
+src/db.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv.dir/build.make CMakeFiles/forgekv.dir/src/db.cc.o
+.PHONY : src/db.cc.o
+
+src/db.i: src/db.cc.i
+.PHONY : src/db.i
+
+# target to preprocess a source file
+src/db.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv.dir/build.make CMakeFiles/forgekv.dir/src/db.cc.i
+.PHONY : src/db.cc.i
+
+src/db.s: src/db.cc.s
+.PHONY : src/db.s
+
+# target to generate assembly for a file
+src/db.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv.dir/build.make CMakeFiles/forgekv.dir/src/db.cc.s
+.PHONY : src/db.cc.s
+
 src/forgekv.o: src/forgekv.cc.o
 .PHONY : src/forgekv.o
 
@@ -553,6 +590,30 @@ src/forgekv.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv.dir/build.make CMakeFiles/forgekv.dir/src/forgekv.cc.s
 .PHONY : src/forgekv.cc.s
 
+src/memtable.o: src/memtable.cc.o
+.PHONY : src/memtable.o
+
+# target to build an object file
+src/memtable.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv.dir/build.make CMakeFiles/forgekv.dir/src/memtable.cc.o
+.PHONY : src/memtable.cc.o
+
+src/memtable.i: src/memtable.cc.i
+.PHONY : src/memtable.i
+
+# target to preprocess a source file
+src/memtable.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv.dir/build.make CMakeFiles/forgekv.dir/src/memtable.cc.i
+.PHONY : src/memtable.cc.i
+
+src/memtable.s: src/memtable.cc.s
+.PHONY : src/memtable.s
+
+# target to generate assembly for a file
+src/memtable.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv.dir/build.make CMakeFiles/forgekv.dir/src/memtable.cc.s
+.PHONY : src/memtable.cc.s
+
 src/status.o: src/status.cc.o
 .PHONY : src/status.o
 
@@ -576,6 +637,54 @@ src/status.s: src/status.cc.s
 src/status.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv.dir/build.make CMakeFiles/forgekv.dir/src/status.cc.s
 .PHONY : src/status.cc.s
+
+src/wal.o: src/wal.cc.o
+.PHONY : src/wal.o
+
+# target to build an object file
+src/wal.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv.dir/build.make CMakeFiles/forgekv.dir/src/wal.cc.o
+.PHONY : src/wal.cc.o
+
+src/wal.i: src/wal.cc.i
+.PHONY : src/wal.i
+
+# target to preprocess a source file
+src/wal.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv.dir/build.make CMakeFiles/forgekv.dir/src/wal.cc.i
+.PHONY : src/wal.cc.i
+
+src/wal.s: src/wal.cc.s
+.PHONY : src/wal.s
+
+# target to generate assembly for a file
+src/wal.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv.dir/build.make CMakeFiles/forgekv.dir/src/wal.cc.s
+.PHONY : src/wal.cc.s
+
+tests/db_test.o: tests/db_test.cc.o
+.PHONY : tests/db_test.o
+
+# target to build an object file
+tests/db_test.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv_db_test.dir/build.make CMakeFiles/forgekv_db_test.dir/tests/db_test.cc.o
+.PHONY : tests/db_test.cc.o
+
+tests/db_test.i: tests/db_test.cc.i
+.PHONY : tests/db_test.i
+
+# target to preprocess a source file
+tests/db_test.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv_db_test.dir/build.make CMakeFiles/forgekv_db_test.dir/tests/db_test.cc.i
+.PHONY : tests/db_test.cc.i
+
+tests/db_test.s: tests/db_test.cc.s
+.PHONY : tests/db_test.s
+
+# target to generate assembly for a file
+tests/db_test.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv_db_test.dir/build.make CMakeFiles/forgekv_db_test.dir/tests/db_test.cc.s
+.PHONY : tests/db_test.cc.s
 
 tests/hello_test.o: tests/hello_test.cc.o
 .PHONY : tests/hello_test.o
@@ -663,14 +772,27 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... forgekv"
+	@echo "... forgekv_db_test"
 	@echo "... forgekv_hello_test"
 	@echo "... forgekv_status_test"
+	@echo "... src/db.o"
+	@echo "... src/db.i"
+	@echo "... src/db.s"
 	@echo "... src/forgekv.o"
 	@echo "... src/forgekv.i"
 	@echo "... src/forgekv.s"
+	@echo "... src/memtable.o"
+	@echo "... src/memtable.i"
+	@echo "... src/memtable.s"
 	@echo "... src/status.o"
 	@echo "... src/status.i"
 	@echo "... src/status.s"
+	@echo "... src/wal.o"
+	@echo "... src/wal.i"
+	@echo "... src/wal.s"
+	@echo "... tests/db_test.o"
+	@echo "... tests/db_test.i"
+	@echo "... tests/db_test.s"
 	@echo "... tests/hello_test.o"
 	@echo "... tests/hello_test.i"
 	@echo "... tests/hello_test.s"

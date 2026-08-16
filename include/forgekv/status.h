@@ -8,6 +8,7 @@ namespace forgekv {
 // An OK status has no error message; all other statuses describe a failure.
 enum class StatusCode {
   kOk,
+  kInvalidArgument,
   kNotFound,
   kIOError,
   kCorruption,
@@ -16,6 +17,7 @@ enum class StatusCode {
 class Status {
  public:
   static Status OK();
+  static Status InvalidArgument(std::string message);
   static Status NotFound(std::string message);
   static Status IOError(std::string message);
   static Status Corruption(std::string message);

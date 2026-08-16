@@ -1,34 +1,49 @@
-Start testing: Aug 16 13:45 CST
+Start testing: Aug 16 15:10 CST
 ----------------------------------------------------------
-1/2 Testing: forgekv_hello_test
-1/2 Test: forgekv_hello_test
+1/3 Testing: forgekv_hello_test
+1/3 Test: forgekv_hello_test
 Command: "/Users/steve/code/forgekv-mlx-kv-cache/build/forgekv_hello_test"
 Directory: /Users/steve/code/forgekv-mlx-kv-cache/build
-"forgekv_hello_test" start time: Aug 16 13:45 CST
+"forgekv_hello_test" start time: Aug 16 15:10 CST
 Output:
 ----------------------------------------------------------
 Hello from ForgeKV!
 <end of output>
-Test time =   0.53 sec
+Test time =   0.54 sec
 ----------------------------------------------------------
 Test Passed.
-"forgekv_hello_test" end time: Aug 16 13:45 CST
+"forgekv_hello_test" end time: Aug 16 15:10 CST
 "forgekv_hello_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/2 Testing: forgekv_status_test
-2/2 Test: forgekv_status_test
+2/3 Testing: forgekv_status_test
+2/3 Test: forgekv_status_test
 Command: "/Users/steve/code/forgekv-mlx-kv-cache/build/forgekv_status_test"
 Directory: /Users/steve/code/forgekv-mlx-kv-cache/build
-"forgekv_status_test" start time: Aug 16 13:45 CST
+"forgekv_status_test" start time: Aug 16 15:10 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.41 sec
+Test time =   0.37 sec
 ----------------------------------------------------------
 Test Passed.
-"forgekv_status_test" end time: Aug 16 13:45 CST
+"forgekv_status_test" end time: Aug 16 15:10 CST
 "forgekv_status_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Aug 16 13:45 CST
+3/3 Testing: forgekv_db_test
+3/3 Test: forgekv_db_test
+Command: "/Users/steve/code/forgekv-mlx-kv-cache/build/forgekv_db_test"
+Directory: /Users/steve/code/forgekv-mlx-kv-cache/build
+"forgekv_db_test" start time: Aug 16 15:10 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.35 sec
+----------------------------------------------------------
+Test Passed.
+"forgekv_db_test" end time: Aug 16 15:10 CST
+"forgekv_db_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 16 15:10 CST

@@ -86,4 +86,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake"
   "CMakeFiles/forgekv_hello_test.dir/DependInfo.cmake"
   "CMakeFiles/forgekv_status_test.dir/DependInfo.cmake"
+  "CMakeFiles/forgekv_db_test.dir/DependInfo.cmake"
   )

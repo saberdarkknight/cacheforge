@@ -1,2 +1,2 @@
-/usr/bin/ar qc libforgekv.a CMakeFiles/forgekv.dir/src/forgekv.cc.o CMakeFiles/forgekv.dir/src/status.cc.o
+/usr/bin/ar qc libforgekv.a CMakeFiles/forgekv.dir/src/db.cc.o CMakeFiles/forgekv.dir/src/forgekv.cc.o CMakeFiles/forgekv.dir/src/memtable.cc.o CMakeFiles/forgekv.dir/src/status.cc.o CMakeFiles/forgekv.dir/src/wal.cc.o
 /usr/bin/ranlib libforgekv.a

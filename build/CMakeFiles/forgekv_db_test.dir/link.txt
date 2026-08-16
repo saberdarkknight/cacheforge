@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/forgekv_db_test.dir/tests/db_test.cc.o -o forgekv_db_test  libforgekv.a

@@ -221,21 +221,21 @@ Metrics:
 
 ### Phase 0 — Project contract
 
-- [ ] Create the repository and this README.
-- [ ] Record the hypothesis, scope, metrics, and non-goals.
+- [x] Create the repository and this README.
+- [x] Record the hypothesis, scope, metrics, and non-goals.
 - [ ] Choose one initial Llama-style model family for the C++ runner.
 
 ### Phase 1 — C++ foundation
 
-- [ ] Configure CMake and automated tests.
+- [x] Configure CMake and automated tests.
 - [ ] Implement `Status` and the basic ForgeKV CLI.
-- [ ] Build and test a clean checkout.
+- [x] Build and test a clean checkout.
 
 ### Phase 2 — Durable ForgeKV vertical slice
 
-- [ ] Implement `DB`, WAL, and a `std::map` MemTable.
-- [ ] Implement WAL replay on startup.
-- [ ] Test recovery, including a truncated final WAL record.
+- [x] Implement `DB`, WAL, and a `std::map` MemTable.
+- [x] Implement WAL replay on startup.
+- [x] Test recovery, including a truncated final WAL record.
 
 ### Phase 3 — Persistent sorted storage
 
