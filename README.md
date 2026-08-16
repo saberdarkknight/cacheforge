@@ -228,7 +228,7 @@ Metrics:
 ### Phase 1 — C++ foundation
 
 - [x] Configure CMake and automated tests.
-- [ ] Implement `Status` and the basic ForgeKV CLI.
+- [x] Implement `Status` and the basic ForgeKV CLI.
 - [x] Build and test a clean checkout.
 
 ### Phase 2 — Durable ForgeKV vertical slice

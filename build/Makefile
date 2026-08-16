@@ -140,6 +140,19 @@ forgekv/fast:
 .PHONY : forgekv/fast
 
 #=============================================================================
+# Target rules for targets named forgekv_cli
+
+# Build rule for target.
+forgekv_cli: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 forgekv_cli
+.PHONY : forgekv_cli
+
+# fast build rule for target.
+forgekv_cli/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv_cli.dir/build.make CMakeFiles/forgekv_cli.dir/build
+.PHONY : forgekv_cli/fast
+
+#=============================================================================
 # Target rules for targets named Experimental
 
 # Build rule for target.
@@ -734,6 +747,30 @@ tests/status_test.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv_status_test.dir/build.make CMakeFiles/forgekv_status_test.dir/tests/status_test.cc.s
 .PHONY : tests/status_test.cc.s
 
+tools/kv_cli.o: tools/kv_cli.cc.o
+.PHONY : tools/kv_cli.o
+
+# target to build an object file
+tools/kv_cli.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv_cli.dir/build.make CMakeFiles/forgekv_cli.dir/tools/kv_cli.cc.o
+.PHONY : tools/kv_cli.cc.o
+
+tools/kv_cli.i: tools/kv_cli.cc.i
+.PHONY : tools/kv_cli.i
+
+# target to preprocess a source file
+tools/kv_cli.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv_cli.dir/build.make CMakeFiles/forgekv_cli.dir/tools/kv_cli.cc.i
+.PHONY : tools/kv_cli.cc.i
+
+tools/kv_cli.s: tools/kv_cli.cc.s
+.PHONY : tools/kv_cli.s
+
+# target to generate assembly for a file
+tools/kv_cli.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv_cli.dir/build.make CMakeFiles/forgekv_cli.dir/tools/kv_cli.cc.s
+.PHONY : tools/kv_cli.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -772,6 +809,7 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... forgekv"
+	@echo "... forgekv_cli"
 	@echo "... forgekv_db_test"
 	@echo "... forgekv_hello_test"
 	@echo "... forgekv_status_test"
@@ -799,6 +837,9 @@ help:
 	@echo "... tests/status_test.o"
 	@echo "... tests/status_test.i"
 	@echo "... tests/status_test.s"
+	@echo "... tools/kv_cli.o"
+	@echo "... tools/kv_cli.i"
+	@echo "... tools/kv_cli.s"
 .PHONY : help
 
 

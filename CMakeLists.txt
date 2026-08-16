@@ -27,6 +27,12 @@ else()
   target_compile_options(forgekv PRIVATE -Wall -Wextra -Wpedantic)
 endif()
 
+add_executable(forgekv_cli
+  tools/kv_cli.cc
+)
+
+target_link_libraries(forgekv_cli PRIVATE forgekv)
+
 include(CTest)
 
 if(BUILD_TESTING)

@@ -1,4 +1,4 @@
-forgekv_hello_test 5 0.107556
-forgekv_status_test 3 0.122213
-forgekv_db_test 1 0.345831
+forgekv_hello_test 6 0.000217979
+forgekv_status_test 4 0.000271552
+forgekv_db_test 2 0.000834166
 ---
