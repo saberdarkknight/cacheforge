@@ -1,19 +1,34 @@
-Start testing: Aug 02 22:08 CST
+Start testing: Aug 16 13:45 CST
 ----------------------------------------------------------
-1/1 Testing: forgekv_hello_test
-1/1 Test: forgekv_hello_test
+1/2 Testing: forgekv_hello_test
+1/2 Test: forgekv_hello_test
 Command: "/Users/steve/code/forgekv-mlx-kv-cache/build/forgekv_hello_test"
 Directory: /Users/steve/code/forgekv-mlx-kv-cache/build
-"forgekv_hello_test" start time: Aug 02 22:08 CST
+"forgekv_hello_test" start time: Aug 16 13:45 CST
 Output:
 ----------------------------------------------------------
 Hello from ForgeKV!
 <end of output>
-Test time =   0.32 sec
+Test time =   0.53 sec
 ----------------------------------------------------------
 Test Passed.
-"forgekv_hello_test" end time: Aug 02 22:08 CST
+"forgekv_hello_test" end time: Aug 16 13:45 CST
 "forgekv_hello_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Aug 02 22:08 CST
+2/2 Testing: forgekv_status_test
+2/2 Test: forgekv_status_test
+Command: "/Users/steve/code/forgekv-mlx-kv-cache/build/forgekv_status_test"
+Directory: /Users/steve/code/forgekv-mlx-kv-cache/build
+"forgekv_status_test" start time: Aug 16 13:45 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.41 sec
+----------------------------------------------------------
+Test Passed.
+"forgekv_status_test" end time: Aug 16 13:45 CST
+"forgekv_status_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 16 13:45 CST

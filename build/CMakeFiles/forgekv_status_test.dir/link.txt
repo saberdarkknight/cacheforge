@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/forgekv_status_test.dir/tests/status_test.cc.o -o forgekv_status_test  libforgekv.a

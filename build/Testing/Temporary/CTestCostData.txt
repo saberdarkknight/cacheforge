@@ -1,2 +1,3 @@
-forgekv_hello_test 1 0.321163
+forgekv_hello_test 3 0.178106
+forgekv_status_test 1 0.410893
 ---

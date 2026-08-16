@@ -8,6 +8,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_library(forgekv
   src/forgekv.cc
+  src/status.cc
 )
 
 target_include_directories(forgekv
@@ -33,4 +34,12 @@ if(BUILD_TESTING)
   target_link_libraries(forgekv_hello_test PRIVATE forgekv)
 
   add_test(NAME forgekv_hello_test COMMAND forgekv_hello_test)
+
+  add_executable(forgekv_status_test
+    tests/status_test.cc
+  )
+
+  target_link_libraries(forgekv_status_test PRIVATE forgekv)
+
+  add_test(NAME forgekv_status_test COMMAND forgekv_status_test)
 endif()

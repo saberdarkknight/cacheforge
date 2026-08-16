@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/forgekv_hello_test.dir/tests/hello_test.cc.o -o forgekv_hello_test  libforgekv.a
+/usr/bin/c++ -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/forgekv_hello_test.dir/tests/hello_test.cc.o -o forgekv_hello_test  libforgekv.a

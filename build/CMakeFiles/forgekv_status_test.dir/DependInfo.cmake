@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/steve/code/forgekv-mlx-kv-cache/src/forgekv.cc" "CMakeFiles/forgekv.dir/src/forgekv.cc.o" "gcc" "CMakeFiles/forgekv.dir/src/forgekv.cc.o.d"
-  "/Users/steve/code/forgekv-mlx-kv-cache/src/status.cc" "CMakeFiles/forgekv.dir/src/status.cc.o" "gcc" "CMakeFiles/forgekv.dir/src/status.cc.o.d"
+  "/Users/steve/code/forgekv-mlx-kv-cache/tests/status_test.cc" "CMakeFiles/forgekv_status_test.dir/tests/status_test.cc.o" "gcc" "CMakeFiles/forgekv_status_test.dir/tests/status_test.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

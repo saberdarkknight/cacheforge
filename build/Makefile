@@ -516,6 +516,19 @@ forgekv_hello_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv_hello_test.dir/build.make CMakeFiles/forgekv_hello_test.dir/build
 .PHONY : forgekv_hello_test/fast
 
+#=============================================================================
+# Target rules for targets named forgekv_status_test
+
+# Build rule for target.
+forgekv_status_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 forgekv_status_test
+.PHONY : forgekv_status_test
+
+# fast build rule for target.
+forgekv_status_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv_status_test.dir/build.make CMakeFiles/forgekv_status_test.dir/build
+.PHONY : forgekv_status_test/fast
+
 src/forgekv.o: src/forgekv.cc.o
 .PHONY : src/forgekv.o
 
@@ -540,6 +553,30 @@ src/forgekv.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv.dir/build.make CMakeFiles/forgekv.dir/src/forgekv.cc.s
 .PHONY : src/forgekv.cc.s
 
+src/status.o: src/status.cc.o
+.PHONY : src/status.o
+
+# target to build an object file
+src/status.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv.dir/build.make CMakeFiles/forgekv.dir/src/status.cc.o
+.PHONY : src/status.cc.o
+
+src/status.i: src/status.cc.i
+.PHONY : src/status.i
+
+# target to preprocess a source file
+src/status.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv.dir/build.make CMakeFiles/forgekv.dir/src/status.cc.i
+.PHONY : src/status.cc.i
+
+src/status.s: src/status.cc.s
+.PHONY : src/status.s
+
+# target to generate assembly for a file
+src/status.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv.dir/build.make CMakeFiles/forgekv.dir/src/status.cc.s
+.PHONY : src/status.cc.s
+
 tests/hello_test.o: tests/hello_test.cc.o
 .PHONY : tests/hello_test.o
 
@@ -563,6 +600,30 @@ tests/hello_test.s: tests/hello_test.cc.s
 tests/hello_test.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv_hello_test.dir/build.make CMakeFiles/forgekv_hello_test.dir/tests/hello_test.cc.s
 .PHONY : tests/hello_test.cc.s
+
+tests/status_test.o: tests/status_test.cc.o
+.PHONY : tests/status_test.o
+
+# target to build an object file
+tests/status_test.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv_status_test.dir/build.make CMakeFiles/forgekv_status_test.dir/tests/status_test.cc.o
+.PHONY : tests/status_test.cc.o
+
+tests/status_test.i: tests/status_test.cc.i
+.PHONY : tests/status_test.i
+
+# target to preprocess a source file
+tests/status_test.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv_status_test.dir/build.make CMakeFiles/forgekv_status_test.dir/tests/status_test.cc.i
+.PHONY : tests/status_test.cc.i
+
+tests/status_test.s: tests/status_test.cc.s
+.PHONY : tests/status_test.s
+
+# target to generate assembly for a file
+tests/status_test.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forgekv_status_test.dir/build.make CMakeFiles/forgekv_status_test.dir/tests/status_test.cc.s
+.PHONY : tests/status_test.cc.s
 
 # Help Target
 help:
@@ -603,12 +664,19 @@ help:
 	@echo "... NightlyUpdate"
 	@echo "... forgekv"
 	@echo "... forgekv_hello_test"
+	@echo "... forgekv_status_test"
 	@echo "... src/forgekv.o"
 	@echo "... src/forgekv.i"
 	@echo "... src/forgekv.s"
+	@echo "... src/status.o"
+	@echo "... src/status.i"
+	@echo "... src/status.s"
 	@echo "... tests/hello_test.o"
 	@echo "... tests/hello_test.i"
 	@echo "... tests/hello_test.s"
+	@echo "... tests/status_test.o"
+	@echo "... tests/status_test.i"
+	@echo "... tests/status_test.s"
 .PHONY : help
 
 
